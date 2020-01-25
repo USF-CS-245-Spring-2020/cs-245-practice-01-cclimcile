@@ -27,6 +27,6 @@ public class Practice01MathRecursive implements Practice01Math {
             return 1;
         }
 
-        return fact(n-1) * n;
+        return n * fact(n-1);
     }
 }
